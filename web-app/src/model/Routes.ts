@@ -1,0 +1,16 @@
+export enum GO_TO {
+    ROOT = '/',
+    HOME = '/home',
+    TASK = '/task',
+    SHOWTASK = '/task/:id',
+    ABOUT = '/about',
+    P_WHO = '/about/pwho',
+    WHO = '/about/pwho/who/:userId',
+    ROL = '/rol',
+    DASHBOARD = '/rol/dashboard',
+    CONTACT = '/contact',
+    ADMIN = '/rol/admin',
+    CHAT = '/chat/:userId',
+    CHAT_EDIT = '/chat/:userId/edit',
+    ERROR = '*',
+};

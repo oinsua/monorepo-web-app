@@ -1,0 +1,4 @@
+/node_modules
+/web-app/build
+/web-app/node_modules
+.env
